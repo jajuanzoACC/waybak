@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diaries",
+  "info": {
+    "singularName": "diary",
+    "pluralName": "diaries",
+    "displayName": "diary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "mood": {
+      "type": "enumeration",
+      "enum": [
+        "mood_1",
+        "mood_2",
+        "mood_3",
+        "mood_4",
+        "mood_5",
+        "mood_6",
+        "mood_7",
+        "mood_8",
+        "mood_9",
+        "mood_10"
+      ]
+    },
+    "moodText": {
+      "type": "string"
+    }
+  }
+}
